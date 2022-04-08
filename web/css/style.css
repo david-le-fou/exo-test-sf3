@@ -1,0 +1,13 @@
+body{
+    background-color: antiquewhite;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: aliceblue;
+}
+header,footer {
+    background-color: coral;
+}
+footer {
+    position: relative;
+    top: 90vh;
+}

@@ -1,0 +1,3 @@
+ato_homepage:
+    path:     /
+    defaults: { _controller: AtoBundle:Default:index }

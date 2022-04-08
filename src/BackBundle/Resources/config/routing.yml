@@ -1,0 +1,6 @@
+back_login:
+    path:     /admin
+    defaults: { _controller: BackBundle:Admin:login }
+back_signup:
+    path:     /inscription
+    defaults: { _controller: BackBundle:Admin:inscription }

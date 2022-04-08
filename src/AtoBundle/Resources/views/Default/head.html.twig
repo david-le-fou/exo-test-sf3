@@ -1,0 +1,12 @@
+{% block stylesheets %}
+           <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+           <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
+{% endblock %}
+<header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        {% for page,url in menu %}
+            <a href="{{url}}" class="navbar-brand" >{{page}}</a>
+        {% endfor %}
+    </nav>
+</header>

@@ -1,0 +1,4 @@
+services:
+#    ato.example:
+#        class: AtoBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
